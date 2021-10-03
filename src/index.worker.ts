@@ -4,12 +4,13 @@ export const getCustomDataDescriptors: GetCustomDataDescriptorsFn = () => {
   return [];
 };
 
-export const siteData: SiteData = {
+export const siteData: any = {
   customCssKey: "styles.css",
+  customJsKey: "theme.js",
   meta: {
     // values: TOPIC_TITLE
     title: "TOPIC_TITLE • Fabletics",
-    description: "Send a video question (no app needed) for TOPIC_TITLE",
+    description: "Send a video review (no app needed) for this Fabletics location",
   },
   introScreen: {
     // values: SOCIAL_NETWORK, BROWSER_NAME, INVITATION_DISPLAY_NAME, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
@@ -38,7 +39,7 @@ export const siteData: SiteData = {
         <div class="m-8">QR_CODE</div>
         <div>
           <p class="m-4 mb-6 text-base">Point your camera at the QR code to open this link on your
-          phone and send <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">your video question.</span></p>
+          phone and send <b>URL_TAG INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">your video question.</span></p>
         </div>
       </div>
     `,
