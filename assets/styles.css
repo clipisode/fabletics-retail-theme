@@ -101,13 +101,13 @@ body {
   font-family: "Assistant";
   font-weight: 700;
   margin: 2rem 1.5rem 0 1.5rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.1;
   display: none;
 }
 
 #introScreen #introTitle p {
-  margin: 2rem 0 0 0;
+  margin: 1.5rem 0 0 0;
 }
 
 #introScreen #introBottom {
