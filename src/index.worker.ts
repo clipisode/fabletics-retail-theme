@@ -21,7 +21,7 @@ export const siteData: any = {
       <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Good news</h1>
       <p class="text-left text-gray-700 text-sm py-3">Just tap the three dots menu and choose <span class="whitespace-nowrap">“Open in BROWSER_NAME”</span> to send your video question to <span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span>.</p>
     `,
-    termsMarkup: `By replying to URL_TAG INVITATION_DISPLAY_NAME, you agree to our <span class="whitespace-nowrap"><a href="/terms">Terms</a> and <a href="/privacy">Privacy</a></span>EXTRA_TERMS.`,
+    termsMarkup: `By replying to INVITATION_DISPLAY_NAME, you agree to our <span class="whitespace-nowrap"><a href="/terms">Terms</a> and <a href="/privacy">Privacy</a></span>EXTRA_TERMS.`,
     extraTerms: ` plus <a href="/terms/BRAND_SLUG/TERMS_SLUG">TERMS_NAME</a>`,
   },
   introScreenDesktop: {
@@ -39,7 +39,7 @@ export const siteData: any = {
         <div class="m-8">QR_CODE</div>
         <div>
           <p class="m-4 mb-6 text-base">Point your camera at the QR code to open this link on your
-          phone and send <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">your video question.</span></p>
+          phone and send URL_TAG <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">your video question.</span></p>
         </div>
       </div>
     `,
