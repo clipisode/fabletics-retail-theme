@@ -22,7 +22,7 @@ export const siteData: any = {
       <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Good news</h1>
       <p class="text-left text-gray-700 text-sm py-3">Just tap the three dots menu and choose <span class="whitespace-nowrap">“Open in BROWSER_NAME”</span> to send your video question to <span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span>.</p>
     `,
-    termsMarkup: `By replying to INVITATION_DISPLAY_NAME, you agree to our <span class="whitespace-nowrap"><a href="/terms">Terms</a> and <a href="/privacy">Privacy</a></span>EXTRA_TERMS.`,
+    termsMarkup: `<br />URL_TAG<br /><br />By replying to INVITATION_DISPLAY_NAME, you agree to our <span class="whitespace-nowrap"><a href="/terms">Terms</a> and <a href="/privacy">Privacy</a></span>EXTRA_TERMS.`,
     extraTerms: ` plus <a href="/terms/BRAND_SLUG/TERMS_SLUG">TERMS_NAME</a>`,
   },
   introScreenDesktop: {
@@ -33,10 +33,9 @@ export const siteData: any = {
           <div class="m-2">
             <a href="https://fabletics.com">
               <img src="THEME_FILE_ROOT/icon-black-small.png" class="h-12" />
-              <p><b>URL_TAG</b></p>
             </a>
           </div>
-          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-28 md:max-h-32 overflow-hidden">TOPIC_TITLE</h1>
+          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-28 md:max-h-32 overflow-hidden">Send us a video!<br /><br />Tell us what you love, what you don't love or ask us a question.</h1>
         </div>
         <div class="m-8">QR_CODE</div>
         <div>
