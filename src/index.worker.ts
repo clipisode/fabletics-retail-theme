@@ -22,7 +22,7 @@ export const siteData: any = {
       <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Good news</h1>
       <p class="text-left text-gray-700 text-sm py-3">Just tap the three dots menu and choose <span class="whitespace-nowrap">“Open in BROWSER_NAME”</span> to send your video question to <span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span>.</p>
     `,
-    termsMarkup: `<br />URL_TAG<br /><br />By replying to INVITATION_DISPLAY_NAME, you agree to our <span class="whitespace-nowrap"><a href="/terms">Terms</a> and <a href="/privacy">Privacy</a></span>EXTRA_TERMS.`,
+    termsMarkup: `URL_TAG<br />By replying to INVITATION_DISPLAY_NAME, you agree to our <span class="whitespace-nowrap"><a href="/terms">Terms</a> and <a href="/privacy">Privacy</a></span>EXTRA_TERMS.`,
     extraTerms: ` plus <a href="/terms/BRAND_SLUG/TERMS_SLUG">TERMS_NAME</a>`,
   },
   introScreenDesktop: {
