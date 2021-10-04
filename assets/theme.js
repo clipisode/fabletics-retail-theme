@@ -8,13 +8,13 @@ window.onload = function() {
     document.getElementById("introTitle").style.display = "block";
     var noVideoArea = document.getElementById("noVideoArea");
     var img0 = document.createElement('div');
-    img1.className = "img0";
+    img0.className = "img0";
     noVideoArea.appendChild(img0);
     var img1 = document.createElement('div');
     img1.className = "img1";
     noVideoArea.appendChild(img1);
     var img2 = document.createElement('div');
-    img1.className = "img2";
+    img2.className = "img2";
     noVideoArea.appendChild(img2);
 };
 
