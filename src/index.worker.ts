@@ -39,7 +39,7 @@ export const siteData: any = {
         <div class="m-8">QR_CODE</div>
         <div>
           <p class="m-4 mb-6 text-base">Point your camera at the QR code to open this link on your
-          phone and send URL_TAG <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">your video question.</span></p>
+          phone and send <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">your video question.</span></p>
         </div>
       </div>
     `,
@@ -53,7 +53,7 @@ export const siteData: any = {
     `,
   },
   successScreen: {
-    // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME
+    // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME, URL_TAG
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
@@ -62,7 +62,7 @@ export const siteData: any = {
               <img src="THEME_FILE_ROOT/logo-small.png" style="width: 175px; margin: 80px auto;" />
             </a>
           </div>
-          <p class="mt-12 my-12 mx-3 text-center">We got your video question for <b><span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span></b>.</p>
+          <p class="mt-12 my-12 mx-3 text-center">We got your video question for <b><span class="whitespace-nowrap">URL_TAG INVITATION_DISPLAY_NAME</span></b>.</p>
           <p class="mt-12 my-12 mx-3 text-center">Follow <a href="https://www.instagram.com/fableticsmen/">@FableticsMen</a> on Instagram to see <span class="whitespace-nowrap">all the answers.</span></p>
         </div>
       </div>
