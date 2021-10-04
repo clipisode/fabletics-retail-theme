@@ -13,7 +13,7 @@ window.onload = function() {
     if (document.getElementById("introScreen")) {
         // document.getElementById("introHostName").innerHTML = "Fabletics &#8212; " + thisTag;
         // document.getElementById("introHostName").style.display = "block";
-        document.getElementById("introTitle").innerHTML = "<p>Send us a video review.</p><p>Tell us what you love, what you don't love or ask us a question.</p>";
+        document.getElementById("introTitle").innerHTML = "<p>Send us a video!</p><p>Tell us what you love, what you don't love or ask us a question.</p>";
         document.getElementById("introTitle").style.display = "block";
         addImg(4); addImg(3); addImg(2); addImg(1); addImg(0);
     }
