@@ -8,8 +8,8 @@ export const siteData: any = {
   customJsKey: "theme.js",
   meta: {
     // values: TOPIC_TITLE
-    title: "Send Fabletics a video review",
-    description: "Send a video review (no app needed) for this Fabletics location",
+    title: "Send Fabletics a video",
+    description: "Send a video (no app needed) for this Fabletics location",
   },
   introScreen: {
     // values: SOCIAL_NETWORK, BROWSER_NAME, INVITATION_DISPLAY_NAME, URL_TAG, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
@@ -35,7 +35,7 @@ export const siteData: any = {
               <img src="THEME_FILE_ROOT/icon-black-small.png" class="h-12" />
             </a>
           </div>
-          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-32 md:max-h-48 overflow-hidden">Send us a video!<br />Tell us what you love, what you don't love or ask us a question.</h1>
+          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-32 md:max-h-48 overflow-hidden">Send us a video.<br />Tell us why you love our leggings!</h1>
         </div>
         <div class="m-8">QR_CODE</div>
         <div>
@@ -63,7 +63,7 @@ export const siteData: any = {
               <img src="THEME_FILE_ROOT/logo-small.png" style="width: 175px; margin: 80px auto;" />
             </a>
           </div>
-          <p class="mt-12 my-12 mx-3 text-center">We got your video question for <b><span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span></b>.</p>
+          <p class="mt-12 my-12 mx-3 text-center">We got your video.</p>
           <p class="mt-12 my-12 mx-3 text-center">Follow <a href="https://www.instagram.com/fableticsmen/">@FableticsMen</a> on Instagram to see <span class="whitespace-nowrap">all the answers.</span></p>
         </div>
       </div>
