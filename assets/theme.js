@@ -14,5 +14,5 @@ window.onload = function() {
     document.getElementById("introTitle").innerHTML = "<p>Send us a video review.</p><p>Tell us what you love, what you don't love or ask us a question.</p>";
     // document.getElementById("introHostName").style.display = "block";
     document.getElementById("introTitle").style.display = "block";
-    addImg(0); addImg(1); addImg(2); addImg(3); addImg(4);
+    addImg(4); addImg(3); addImg(2); addImg(1); addImg(0);
 };
