@@ -163,6 +163,9 @@ body {
 
 #buttonsContainer button.buttonSkip {
   background-color: transparent;
+  color: #acadad;
+  text-decoration: underline;
+  font-weight: 400;
 }
 
 #nameScreen h1 {
