@@ -11,12 +11,11 @@
 
 body {
   background-color: white;
-  background-image: url(./retail-000.png);
-  background-size: cover;
 }
 
 #introScreen #noVideoArea {
-  background: none;
+  background-image: url(./retail-000.png);
+  background-size: cover;
 }
 
 #detailsContainer,
