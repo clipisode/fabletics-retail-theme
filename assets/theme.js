@@ -8,7 +8,7 @@ window.onload = function() {
     document.getElementById("introTitle").style.display = "block";
     var noVideoArea = document.getElementById("noVideoArea");
     var img1 = document.createElement('img');
-    img1.src = './retail-000.png';
+    img1.src = 'retail-001.png';
     img1.className = "object-cover w-full h-full opacity-0";
     noVideoArea.appendChild(img1);
 };
