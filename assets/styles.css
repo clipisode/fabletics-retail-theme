@@ -18,19 +18,30 @@ body {
   animation: none;
 }
 
-#introScreen .img0 {
+#img0 {
   background: url(./retail-000.png);
-  background-size: cover;
+  animation: slideshow;
+  animation-delay: 0;
 }
-
-#introScreen .img1 {
+#img1 {
   background: url(./retail-001.png);
-  background-size: cover;
+  animation: slideshow;
+  animation-delay: 3s;
 }
-
-#introScreen .img2 {
+#img2 {
   background: url(./retail-002.png);
-  background-size: cover;
+  animation: slideshow;
+  animation-delay: 6s;
+}
+#img3 {
+  background: url(./retail-003.png);
+  animation: slideshow;
+  animation-delay: 9s;
+}
+#img4 {
+  background: url(./retail-004.png);
+  animation: slideshow;
+  animation-delay: 12s;
 }
 
 #detailsContainer,
@@ -198,4 +209,29 @@ body {
 #successScreen a {
   color: #595a5a;
   text-decoration: underline;
+}
+
+/* background image animations
+a=2
+b=1
+t=15
+delay=3
+*/
+
+@keyframes slideshow {
+  0% {
+    opacity: 1;
+  }
+  13.33% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  93.33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

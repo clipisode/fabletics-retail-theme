@@ -6,6 +6,7 @@ const noVideoArea = document.getElementById("noVideoArea");
 function addImg(arg) {
     var thisDiv = document.createElement('div');
     thisDiv.className = "img"+arg+" object-cover w-full h-full";
+    thisDiv.id = "img"+arg;
     noVideoArea.appendChild(thisDiv);
 }
 
