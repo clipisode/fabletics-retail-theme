@@ -33,6 +33,7 @@ export const siteData: any = {
           <div class="m-2">
             <a href="https://fabletics.com">
               <img src="THEME_FILE_ROOT/icon-black-small.png" class="h-12" />
+              <p><b>URL_TAG</b></p>
             </a>
           </div>
           <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-28 md:max-h-32 overflow-hidden">TOPIC_TITLE</h1>
