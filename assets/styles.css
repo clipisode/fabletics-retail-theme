@@ -227,10 +227,21 @@ body {
 }
 
 /* background image animations
-a=2
-b=1
-t=15
-delay=3
+
+n=5 images
+a=2 presentation time
+b=1 transition time
+t=15 total time
+delay=3 stagger time
+
+keyframe percentages
+
+0%
+a/t*100%
+(a+b)/t*100% = 1/n*100%
+100%-(b/t*100%)
+100%
+
 */
 
 @keyframes slideshow {
