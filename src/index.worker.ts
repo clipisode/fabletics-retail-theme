@@ -8,7 +8,7 @@ export const siteData: any = {
   customJsKey: "theme.js",
   meta: {
     // values: TOPIC_TITLE
-    title: "TOPIC_TITLE • Fabletics",
+    title: "Send Fabletics a video review",
     description: "Send a video review (no app needed) for this Fabletics location",
   },
   introScreen: {
