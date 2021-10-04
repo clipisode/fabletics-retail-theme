@@ -49,6 +49,7 @@ export const siteData: any = {
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
         <img src="THEME_FILE_ROOT/icon-black-small.png" class="h-16" />
+        <p>URL_TAG!</p>
       </div>
     `,
   },
