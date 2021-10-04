@@ -36,7 +36,7 @@ export const siteData: any = {
               <img src="THEME_FILE_ROOT/icon-black-small.png" class="h-12" />
             </a>
           </div>
-          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-28 md:max-h-32 overflow-hidden">TOPIC_TITLE &#8212; URL_TAG</h1>
+          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-28 md:max-h-32 overflow-hidden">TOPIC_TITLE</h1>
         </div>
         <div class="m-8">QR_CODE</div>
         <div>
