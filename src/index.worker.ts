@@ -39,8 +39,7 @@ export const siteData: any = {
         </div>
         <div class="m-8">QR_CODE</div>
         <div>
-          <p class="m-4 mb-6 text-base">Point your camera at the QR code to open this link on your
-          phone and send <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">your video.</span></p>
+          <p class="m-4 mb-6 text-base">Point your camera at the QR code to open it on your phone and send us a video. <span class="whitespace-nowrap">It's easy.</span> There's nothing <span class="whitespace-nowrap">to install.</span></p>
         </div>
       </div>
     `,
