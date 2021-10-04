@@ -1,9 +1,8 @@
 // const urlParams = new URLSearchParams(window.location.search);
 // const thisTag = urlParams.get('tag');
 
-const noVideoArea = document.getElementById("noVideoArea");
-
 function addImg(arg) {
+    var noVideoArea = document.getElementById("noVideoArea");
     var thisDiv = document.createElement('div');
     thisDiv.className = "img"+arg+" object-cover w-full h-full";
     thisDiv.id = "img"+arg;
