@@ -8,13 +8,13 @@ window.onload = function() {
     document.getElementById("introTitle").style.display = "block";
     var noVideoArea = document.getElementById("noVideoArea");
     var img0 = document.createElement('div');
-    img0.className = "img0";
+    img0.className = "img0 object-cover w-full h-full";
     noVideoArea.appendChild(img0);
     var img1 = document.createElement('div');
-    img1.className = "img1";
+    img1.className = "img1 object-cover w-full h-full";
     noVideoArea.appendChild(img1);
     var img2 = document.createElement('div');
-    img2.className = "img2";
+    img2.className = "img2 object-cover w-full h-full";
     noVideoArea.appendChild(img2);
 };
 
