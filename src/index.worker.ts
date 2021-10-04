@@ -63,8 +63,8 @@ export const siteData: any = {
               <img src="THEME_FILE_ROOT/logo-small.png" style="width: 175px; margin: 80px auto;" />
             </a>
           </div>
-          <p class="mt-12 my-12 mx-3 text-center">We got your video.</p>
-          <p class="mt-12 my-12 mx-3 text-center">Follow <a href="https://www.instagram.com/fableticsmen/">@FableticsMen</a> on Instagram to see <span class="whitespace-nowrap">all the answers.</span></p>
+          <p class="mt-12 my-12 mx-3 text-center">Thanks for sending us your video!</p>
+          <p class="mt-12 my-12 mx-3 text-center">Be sure to follow <a href="https://www.instagram.com/fabletics/">@Fabletics</a> on Instagram to celebrate <span class="whitespace-nowrap">#LeggingDay.</span></p>
         </div>
       </div>
     `,
