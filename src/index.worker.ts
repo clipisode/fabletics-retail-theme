@@ -35,12 +35,12 @@ export const siteData: any = {
               <img src="THEME_FILE_ROOT/icon-black-small.png" class="h-12" />
             </a>
           </div>
-          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-28 md:max-h-32 overflow-hidden">Send us a video!<br /><br />Tell us what you love, what you don't love or ask us a question.</h1>
+          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-32 md:max-h-48 overflow-hidden">Send us a video!<br />Tell us what you love, what you don't love or ask us a question.</h1>
         </div>
         <div class="m-8">QR_CODE</div>
         <div>
           <p class="m-4 mb-6 text-base">Point your camera at the QR code to open this link on your
-          phone and send <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">your video question.</span></p>
+          phone and send <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">your video.</span></p>
         </div>
       </div>
     `,
