@@ -20,31 +20,31 @@ body {
 
 #img0 {
   background: url(./retail-000.png);
-  animation: slideshow;
+  animation-name: slideshow;
   animation-duration: 15s;
   animation-delay: 0s;
 }
 #img1 {
   background: url(./retail-001.png);
-  animation: slideshow;
+  animation-name: slideshow;
   animation-duration: 15s;
   animation-delay: 3s;
 }
 #img2 {
   background: url(./retail-002.png);
-  animation: slideshow;
+  animation-name: slideshow;
   animation-duration: 15s;
   animation-delay: 6s;
 }
 #img3 {
   background: url(./retail-003.png);
-  animation: slideshow;
+  animation-name: slideshow;
   animation-duration: 15s;
   animation-delay: 9s;
 }
 #img4 {
   background: url(./retail-004.png);
-  animation: slideshow;
+  animation-name: slideshow;
   animation-duration: 15s;
   animation-delay: 12s;
 }
