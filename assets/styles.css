@@ -14,8 +14,8 @@ body {
 }
 
 #introScreen #noVideoArea {
-  background-image: url(./retail-000.png);
-  background-size: cover;
+  background: none;
+  animation: none;
 }
 
 #detailsContainer,
