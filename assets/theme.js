@@ -7,10 +7,15 @@ window.onload = function() {
     // document.getElementById("introHostName").style.display = "block";
     document.getElementById("introTitle").style.display = "block";
     var noVideoArea = document.getElementById("noVideoArea");
-    var img1 = document.createElement('img');
-    img1.src = 'retail-001.png';
-    img1.className = "object-cover w-full h-full opacity-0";
+    var img0 = document.createElement('div');
+    img1.className = "img0";
+    noVideoArea.appendChild(img0);
+    var img1 = document.createElement('div');
+    img1.className = "img1";
     noVideoArea.appendChild(img1);
+    var img2 = document.createElement('div');
+    img1.className = "img2";
+    noVideoArea.appendChild(img2);
 };
 
 // <img src="https://d22rmu8ky1z7ab.cloudfront.net/615a845fcb7a28d9e5e939e0/retail-002.png" class="object-cover w-full h-full">

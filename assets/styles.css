@@ -18,6 +18,21 @@ body {
   animation: none;
 }
 
+#introScreen .img0 {
+  background: url(./retail-000.png);
+  background-size: cover;
+}
+
+#introScreen .img1 {
+  background: url(./retail-001.png);
+  background-size: cover;
+}
+
+#introScreen .img2 {
+  background: url(./retail-002.png);
+  background-size: cover;
+}
+
 #detailsContainer,
 #nameScreen,
 #nameScreen label,
