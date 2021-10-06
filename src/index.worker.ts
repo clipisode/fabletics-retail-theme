@@ -3,6 +3,7 @@ import { GetCustomDataDescriptorsFn, SiteData } from "@clipisode/theme";
 export const getCustomDataDescriptors: GetCustomDataDescriptorsFn = () => {
   return [];
 };
+
 export const siteData: any = {
   customCssKey: "styles.css",
   customJsKey: "theme.js",
@@ -47,6 +48,10 @@ export const siteData: any = {
   nameScreen: {
     // values: UPLOAD_PERCENTAGE, INVITATION_DISPLAY_NAME, SOCIAL_NETWORK
     saveButtonLabel: "Save my video",
+    instructions: `Add your name and Instagram handle and hit save for a chance to be featured on @Fabletics.`,
+    socialPrompt: "instagram",
+    socialPromptFallback: null,
+    socialDescription: "",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
         <img src="THEME_FILE_ROOT/icon-black-small.png" class="h-16" />
