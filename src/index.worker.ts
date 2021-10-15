@@ -13,7 +13,7 @@ export const siteData: any = {
     description: "Send a video (no app needed) for this Fabletics location",
   },
   introScreen: {
-    // values: SOCIAL_NETWORK, BROWSER_NAME, INVITATION_DISPLAY_NAME, URL_TAG, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
+    // values: SOCIAL_NETWORK, BROWSER_NAME, TITLE, INVITATION_DISPLAY_NAME, URL_TAG, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
     recordButtonLabel: "Record a video now",
     uploadLinkLabel: `<p class="text-center">Or <span class="text-brand-primary-light underline">upload a video</span>. It's easy. There's nothing to install.</p>`,
     // Or upload a video.
