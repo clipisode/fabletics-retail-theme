@@ -19,7 +19,7 @@ body {
 }
 
 #img001 {
-  background: url(./slide-001.png);
+  background: url(./slide-001.jpg);
   background-size: cover;
   animation-name: slideshow;
   animation-duration: 22.5s;
@@ -27,7 +27,7 @@ body {
   animation-iteration-count: infinite;
 }
 #img002 {
-  background: url(./slide-002.png);
+  background: url(./slide-002.jpg);
   background-size: cover;
   animation-name: slideshow;
   animation-duration: 22.5s;
@@ -35,7 +35,7 @@ body {
   animation-iteration-count: infinite;
 }
 #img003 {
-  background: url(./slide-003.png);
+  background: url(./slide-003.jpg);
   background-size: cover;
   animation-name: slideshow;
   animation-duration: 22.5s;
@@ -43,7 +43,7 @@ body {
   animation-iteration-count: infinite;
 }
 #img004 {
-  background: url(./slide-004.png);
+  background: url(./slide-004.jpg);
   background-size: cover;
   animation-name: slideshow;
   animation-duration: 22.5s;
@@ -51,7 +51,7 @@ body {
   animation-iteration-count: infinite;
 }
 #img005 {
-  background: url(./slide-005.png);
+  background: url(./slide-005.jpg);
   background-size: cover;
   animation-name: slideshow;
   animation-duration: 22.5s;
@@ -59,7 +59,7 @@ body {
   animation-iteration-count: infinite;
 }
 #img006 {
-  background: url(./slide-006.png);
+  background: url(./slide-006.jpg);
   background-size: cover;
   animation-name: slideshow;
   animation-duration: 22.5s;
@@ -67,7 +67,7 @@ body {
   animation-iteration-count: infinite;
 }
 #img007 {
-  background: url(./slide-007.png);
+  background: url(./slide-007.jpg);
   background-size: cover;
   animation-name: slideshow;
   animation-duration: 22.5s;
@@ -75,7 +75,7 @@ body {
   animation-iteration-count: infinite;
 }
 #img008 {
-  background: url(./slide-008.png);
+  background: url(./slide-008.jpg);
   background-size: cover;
   animation-name: slideshow;
   animation-duration: 22.5s;
@@ -83,7 +83,7 @@ body {
   animation-iteration-count: infinite;
 }
 #img009 {
-  background: url(./slide-009.png);
+  background: url(./slide-009.jpg);
   background-size: cover;
   animation-name: slideshow;
   animation-duration: 22.5s;
