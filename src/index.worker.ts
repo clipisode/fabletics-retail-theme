@@ -15,7 +15,7 @@ export const siteData: any = {
   introScreen: {
     // values: SOCIAL_NETWORK, BROWSER_NAME, TITLE, INVITATION_DISPLAY_NAME, URL_TAG, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
     recordButtonLabel: "Record a video now",
-    uploadLinkLabel: `<p class="text-center">Or <span class="text-brand-primary-light underline">upload a video</span>. It's easy. There's nothing to install.</p>`,
+    uploadLinkLabel: `<p class="text-center">Or <span class="text-brand-primary-light underline">upload a video</span>. It's easy. Nothing to install.</p>`,
     // Or upload a video.
     readyDescription: `
       <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Hang on</h1>
@@ -40,7 +40,7 @@ export const siteData: any = {
         </div>
         <div class="m-8">QR_CODE</div>
         <div>
-          <p class="m-4 mb-6 text-base">Point your camera at the QR code to open it on your phone and send us a video. <span class="whitespace-nowrap">It's easy.</span> There's nothing <span class="whitespace-nowrap">to install.</span></p>
+          <p class="m-4 mb-6 text-base">Point your camera at the QR code to open it on your phone and send us a video. <span class="whitespace-nowrap">It's easy.</span> Nothing <span class="whitespace-nowrap">to install.</span></p>
         </div>
       </div>
     `,
